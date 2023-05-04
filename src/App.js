@@ -74,7 +74,7 @@ const App = () => {
       case 1:
         return (
           <Grid item xs={12}>
-            <TextField fullWidth label="Describe your project in simple terms"  sx={{ width: '100%' }} />
+            <TextField fullWidth label="Describe your idea in simple terms"  sx={{ width: '100%' }} />
           </Grid>
         );
         case 0:
