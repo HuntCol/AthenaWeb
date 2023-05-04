@@ -11,3 +11,42 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+html,
+body,
+#root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+#root {
+  display: flex;
+}
+
+.App {
+  background-image: url('https://cdn.stability.ai/assets/org-KISilkcM85TbfKx8eJSef7m8/00000000-0000-0000-0000-000000000000/c56ca371-37c3-ab16-5cba-4f9f37d795b3');
+  background-size: cover;
+  flex: 1;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex: 2;
+}
+
+html, body, #root {
+  overflow: hidden;
+  height: 100%;
+}
+
+.nextButton {
+  background-color: #E51B23; /* Replace this with the color you want */
+  color: #fff; /* Replace this with the text color you want */
+}
+
+
+
